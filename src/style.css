@@ -1,0 +1,143 @@
+:root {
+    --font-color: #151528;
+    --bg-color: #f5f4f9;
+    --box-color: #d6d6ed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    font-family: monospace;
+}
+* img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contanier {
+    margin: 1rem 8rem;
+
+}
+/* header section */
+/*  
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+header .contant .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header .contant .item img {
+    width: 120px;
+    
+}
+
+.contant .item h4 {
+    font-size: 24px;
+    align-items: center;
+}
+
+.contant .item p {
+    color: #515161;
+    font-weight: bolder;
+}
+
+.contant .item:last-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem 0 2rem 0;
+}
+
+.post, .follower, .following {
+    margin: 1rem;
+    /* padding: 10px; */
+    width: 100px;
+    height: 70px;
+    background-color: var(--box-color);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contant .item:last-child div p {
+    color: #515161;
+}
+
+
+.contant .item:last-child div h1 {
+    font-size: 150%;
+}
+
+/* main section */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+main .items { 
+    display: grid;
+    grid-template-columns: auto auto auto;  
+    max-width: 900px;
+}
+
+main .items .v-fit {
+    grid-row: span 2;
+}
+
+main .items .h-fit {
+    grid-column: span 2;
+}
+ 
+main .items div {
+    margin: 10px;
+}
+
+main .items div img { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+ }
+
+/* footer section */
+footer {
+    margin-top: 20px;
+    margin-bottom: 10px; 
+    display: flex;
+    align-items: flex-end;
+    justify-content :center;
+    color: var(--font-color);
+}
+
+footer p a{
+    color: var(--box-color);
+}
+
+/* media screen*/
+@media screen and (max-width: 800px) {
+    .contanier {
+        margin: 1rem 1rem;
+    }
+
+    .contant .item img {
+        width: 100px !important;
+    }
+    .contant .item h4 {
+        font-size: 18px;
+    }
+    
+    .post, .follower, .following {
+        width: 60px;
+    }
+}
