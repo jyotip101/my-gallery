@@ -8,9 +8,9 @@
 
 <div align="center">
   <h3>
-    <!-- <a href="https://{your-demo-link.your-domain}"> -->
+    <a href="https://jyotip101.github.io/my-gallery/">
       Demo
-    <!-- </a> -->
+    </a>
     <span> | </span>
     <!-- <a href="https://{your-url-to-the-solution}"> -->
       Solution
@@ -36,6 +36,9 @@
 ## Overview
  
 
+ ![Screenshot](https://user-images.githubusercontent.com/66724598/142176141-fa9b0b0a-1f05-49ca-a3c6-773ed1885156.png)
+ 
+![Screenshot](https://user-images.githubusercontent.com/66724598/142176395-a6fc21bc-c592-4b83-8432-c44c6690d6eb.PNG)
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->

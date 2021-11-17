@@ -23,14 +23,8 @@ body {
 .contanier {
     margin: 1rem 8rem;
 
-}
-/* header section */
-/*  
-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+} 
+
 header .contant .item {
     display: flex;
     justify-content: center;
@@ -42,12 +36,13 @@ header .contant .item img {
     
 }
 
-.contant .item h4 {
-    font-size: 24px;
+.contant .item p {
+    font-size: 150%;
     align-items: center;
+    font-weight: 900;
 }
 
-.contant .item p {
+.contant .item span {
     color: #515161;
     font-weight: bolder;
 }
@@ -60,8 +55,7 @@ header .contant .item img {
 }
 
 .post, .follower, .following {
-    margin: 1rem;
-    /* padding: 10px; */
+    margin: 1rem; 
     width: 100px;
     height: 70px;
     background-color: var(--box-color);
@@ -73,11 +67,14 @@ header .contant .item img {
 }
 .contant .item:last-child div p {
     color: #515161;
+    font-size: 130%;
+    font-weight: 900;
 }
 
 
-.contant .item:last-child div h1 {
-    font-size: 150%;
+.contant .item:last-child div span {
+    font-size: 100%;
+    font-weight: lighter;
 }
 
 /* main section */
@@ -112,7 +109,7 @@ main .items div img {
 
 /* footer section */
 footer {
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom: 10px; 
     display: flex;
     align-items: flex-end;
@@ -127,17 +124,21 @@ footer p a{
 /* media screen*/
 @media screen and (max-width: 800px) {
     .contanier {
-        margin: 1rem 1rem;
+        margin: 1rem 0.5rem;
+    }
+
+    main .items div {
+        margin: 5px;
     }
 
     .contant .item img {
         width: 100px !important;
     }
-    .contant .item h4 {
-        font-size: 18px;
+    .contant .item p {
+        font-size: 120%;
     }
     
     .post, .follower, .following {
-        width: 60px;
+        width: 80px;
     }
 }
